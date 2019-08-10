@@ -1,38 +1,4 @@
-tutorialspoint
- 
-jQuery - Effects
-Advertisements
 
- 
- Previous Page Next Page  
-jQuery provides a trivially simple interface for doing various kind of amazing effects. jQuery methods allow us to quickly apply commonly used effects with a minimum configuration. This tutorial covers all the important jQuery methods to create visual effects.
-
-Showing and Hiding Elements
-The commands for showing and hiding elements are pretty much what we would expect − show() to show the elements in a wrapped set and hide() to hide them.
-
-Syntax
-Here is the simple syntax for show() method −
-
-[selector].show( speed, [callback] );
-Here is the description of all the parameters −
-
-speed − A string representing one of the three predefined speeds ("slow", "normal", or "fast") or the number of milliseconds to run the animation (e.g. 1000).
-
-callback − This optional parameter represents a function to be executed whenever the animation completes; executes once for each element animated against.
-
-Following is the simple syntax for hide() method −
-
-[selector].hide( speed, [callback] );
-Here is the description of all the parameters −
-
-speed − A string representing one of the three predefined speeds ("slow", "normal", or "fast") or the number of milliseconds to run the animation (e.g. 1000).
-
-callback − This optional parameter represents a function to be executed whenever the animation completes; executes once for each element animated against.
-
-Example
-Consider the following HTML file with a small JQuery coding −
-
-Live Demo
 <html>
    <head>
       <title>The jQuery Example</title>
