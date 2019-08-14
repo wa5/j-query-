@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+   <head>   
+      <meta charset = "utf-8">
+      <meta name = "viewport" content = "width = device-width, 
+         initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no">    
+	
+      <script src = "/jquery/src/flickerplate/js/min/jquery-v1.10.2.min.js" 
+         type = "text/javascript">
+      </script>
+			
+      <script src = "/jquery/src/flickerplate/js/min/modernizr-custom-v2.7.1.min.js" 
+         type = "text/javascript">
+      </script>
+			
+      <script src = "/jquery/src/flickerplate/js/min/hammer-v2.0.3.min.js"
+         type = "text/javascript">
+      </script>
+
+      <link href = "/jquery/src/flickerplate/css/flickerplate.css"  
+         type = "text/css" rel = "stylesheet">
+			
+      <script src = "/jquery/src/flickerplate/js/min/flickerplate.min.js" 
+         type = "text/javascript">
+      </script>	
+	
+      <script>
+         $(function(){
+            $('.flicker-example').flickerplate({
+               auto_flick        : true,
+               auto_flick_delay  : 8,
+               flick_animation   : 'transform-slide'
+            });
+         });
+      </script>
+
+      <link href = "/jquery/src/flickerplate/css/demo.css"  
+         type = "text/css" rel = "stylesheet">
+   </head>
+	
+   <body>
+      <div class = "flicker-example">
+         <ul>
+            <li data-background = "https://genblock.com/wp-content/uploads/2015
+               /05/download-circles-abstract-wallpaper-
+               abstract-photo-abstract-wallpaper.jpg">
+					
+               <img src = "https://www.tutorialspoint.com/about/images/mohtashim.jpg" 
+                  style = "margin-left: 428px;">
+						
+               <div class = "flick-title">Mohtashim M.</div>
+					
+               <div class = "flick-sub-text">
+                  Mohtashim is an MCA from AMU (Aligarah) and a Project
+                  Management Professional. He has more than 17 years of 
+                  experience in Telecom and Datacom industries covering 
+                  complete SDLC. He is managing in-house innovations, 
+                  business planning, implementation, finance and the overall
+                  business development of Tutorials Point.
+               </div>
+					
+            </li>
+            <li data-background = "https://genblock.com/wp-content/uploads/2015
+               /05/download-circles-abstract-wallpaper-
+               abstract-photo-abstract-wallpaper.jpg">
+					
+               <img src = "https://www.tutorialspoint.com/about/images/gopal_verma.jpg" 
+                  style = "margin-left: 428px;">
+						
+               <div class = "flick-title">Gopal K Verma</div>
+					
+               <div class = "flick-sub-text">
+                  Gopal is an MCA from GJU (Hisar) and a Cisco Certified Network 
+                  Professional. He has more than 11 years of experience in core 
+                  data networking and telecommunications. He develops contents 
+                  for Computer Science related subjects. He is also involved in 
+                  developing Apps for various Mobile devices.
+               </div>
+            </li>
+            <li data-background = "https://genblock.com/wp-content/uploads/2015
+               /05/download-circles-abstract-wallpaper-
+               abstract-photo-abstract-wallpaper.jpg">
+					
+               <img src = "https://www.tutorialspoint.com/about/images/mukesh_kumar.jpg" 
+                  style = "margin-left: 428px;">
+						
+               <div class = "flick-title">Mukesh Kumar</div>
+					
+               <div class = "flick-sub-text">
+                  Mukesh Kumar, having 7+years experience in writing on various
+                  topics ranging from IT products and services, legal, medical,
+                  online advertisement & education to e-commerce businesses.
+                  He also has experience of text & copy-editing, & online
+                  research. He has done two masters – MA (Geography) from
+                  University of Delhi and MA (Mass Communication & 
+                  Journalism) from Kurukshetra University.
+               </div>
+            </li>
+         </ul>
+      </div>
+      
+   </body>
+</html>
